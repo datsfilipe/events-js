@@ -58,7 +58,7 @@ input.addEventListener("keypress", function(e) {
 // event submit
 form.addEventListener("submit", function(e) {
   e.preventDefault();
-  if (input2 !== "") {
+  if (input2.value !== "") {
     console.log("esses dados deveriam ser enviados ao back-end, caso existisse um ");
   } else {
     alert("the text area is not filled !");
