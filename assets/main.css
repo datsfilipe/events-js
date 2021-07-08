@@ -1,0 +1,145 @@
+:root {
+  /* variables */
+  --color-bg: #0c0c0c;
+  --color-txt: #efefef;
+  --color-txt-dark: #0c0c0c;
+  --color-border: #212120;
+  --color-bg-button: #32d32a;
+
+  font-size: 60%;
+}
+
+#container {
+  background: #0c0c0c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 1200px;
+}
+
+body {
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn {
+  font: 700 1.6rem Roboto!important;
+  color: var(--color-txt-dark)!important;
+  background: var(--color-bg-button);
+  border: var(--color-border) 2px solid;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: default;
+}
+
+select {
+  font: 400 1.6rem Roboto!important;
+  color: var(--color-txt)!important;
+  background: var(--color-bg);
+  border: var(--color-border) 2px solid;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  outline: none;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 1.6rem Roboto;
+  color: var(--color-txt);
+}
+
+#input {
+  color: var(--color-txt);
+  background: var(--color-bg);
+  border: var(--color-border) 2px solid;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  outline: none;
+}
+
+h1 {
+  font: 700 2.8rem Roboto;
+  color: var(--color-txt);
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 15px;
+  margin-bottom: 2px;
+  font: 400 1.3rem Roboto;
+  color: var(--color-txt);
+}
+
+#container {
+  max-width: 700px;
+  width: 90vw;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  border: var(--color-border) 5px solid;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 20px;
+  display: grid;
+  width: 400px;
+  height: 200px;
+}
+
+#input2 {
+  color: var(--color-txt);
+  background: var(--color-bg);
+  border: var(--color-border) 2px solid;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  outline: none;
+  text-align: justify;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  word-wrap: break-word;
+}
+
+#btn2 {
+  font: 700 1.6rem Roboto!important;
+  color: var(--color-txt);
+  background: var(--color-bg);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: var(--color-border) 2px solid;
+  border-radius: 10px;
+  padding: 5px;
+
+};
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
