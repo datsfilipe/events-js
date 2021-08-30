@@ -1,4 +1,5 @@
-# LARAVEL REGISTER
+# DOM EVENTS JS
+
 
 <p align="center">
   <img width="220" src="./assets/books.svg">
